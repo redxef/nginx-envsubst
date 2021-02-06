@@ -25,7 +25,7 @@ sub_env_vars="$(cat /environment_variables.txt)"
 echo "Enabling servers"
 (
     cd "/etc/nginx/sites-available" || exit $?
-    mkdir "../sites-enabled" || exit $?
+    test -d "../sites-enabled" || mkdir "../sites-enabled"
     for f in *.conf; do
         envsubst "$sub_env_vars" < "$f" > "../sites-enabled/$f"
     done
