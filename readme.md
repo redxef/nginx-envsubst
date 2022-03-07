@@ -24,4 +24,4 @@ docker run --rm -it \
 
 ## Source
 
-[git.redxef.duckdns.org](https://git.redxef.duckdns.org)
+(gitea.redxef.at/redxef/nginx-envsubst)[https://gitea.redxef.at/redxef/nginx-envsubst]
