@@ -24,4 +24,4 @@ docker run --rm -it \
 
 ## Source
 
-(gitea.redxef.at/redxef/nginx-envsubst)[https://gitea.redxef.at/redxef/nginx-envsubst]
+[gitea.redxef.at/redxef/nginx-envsubst](https://gitea.redxef.at/redxef/nginx-envsubst)
