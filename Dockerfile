@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.15
 
 RUN apk add --upgrade --no-cache nginx gettext inotify-tools
 RUN mv /etc/nginx /etc/nginx.tmpl
