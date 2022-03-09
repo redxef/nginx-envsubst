@@ -9,7 +9,7 @@ resources:
 - name: upstream-image
   type: registry-image
   source:
-    repository: alpine
+    repository: nginx:alpine
 
 jobs:
 - name: build-push
