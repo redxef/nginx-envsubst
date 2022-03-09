@@ -1,8 +1,8 @@
 FROM alpine:latest
 
-RUN apk add --upgrade --no-cache nginx gettext inotify-tools \
- && mv /etc/nginx /etc/nginx.tmpl \
- && touch /etc/envsubst.conf
+RUN apk add --upgrade --no-cache nginx gettext inotify-tools
+RUN mv /etc/nginx /etc/nginx.tmpl
+RUN touch /etc/envsubst.conf
 
 COPY start-nginx.sh /usr/local/bin/
 
