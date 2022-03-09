@@ -5,6 +5,7 @@ resources:
   source:
     uri: https://gitea.redxef.at/redxef/nginx-envsubst
     branch: master
+    fetch_tags: true
 - name: upstream-image
   type: registry-image
   source:
