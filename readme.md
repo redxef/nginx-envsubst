@@ -3,7 +3,7 @@
 A simple docker image for configuring nginx with environment variables.
 
 ## Usage
-Mount you whole nginx configuration into /etc/nginx.tmpl.
+Mount you whole nginx configuration into `/etc/nginx.tmpl/`.
 The configuration files can contain environment variables compatible
 with `envsubst`, list these variables in a file `/etc/envsubst.conf`.
 Additionally, the server gets reloaded when a update to one of the
