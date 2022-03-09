@@ -1,6 +1,6 @@
-FROM alpine:3.15
+FROM nginx:alpine
 
-RUN apk add --upgrade --no-cache nginx gettext inotify-tools
+RUN apk add --upgrade --no-cache gettext inotify-tools
 RUN mv /etc/nginx /etc/nginx.tmpl
 RUN touch /etc/envsubst.conf
 
