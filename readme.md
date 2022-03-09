@@ -15,7 +15,7 @@ referenced certificates happens.
 cd example
 docker run --rm -it \
     -e DOMAIN_NAME=localhost \
-    -p 80:80 -p 443:443
+    -p 80:80 -p 443:443 \
     -v "$PWD/nginx.conf:/etc/nginx.tmpl/nginx.conf" \
     -v "$PWD/envsubst.conf:/etc/envsubst.conf" \
     -v "$PWD/cert:/cert" \
