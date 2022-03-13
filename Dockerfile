@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:alpine-perl
 
 RUN apk add --upgrade --no-cache gettext inotify-tools
 RUN mv /etc/nginx /etc/nginx.tmpl
